@@ -1,6 +1,6 @@
 {
     "short_name": "",
-    "name": "Агент705",
+    "name": "Агент",
     "icons": [
           {
         "src":"./logo/logo_16.png",
@@ -44,7 +44,7 @@
       }
     ],
 
-    "start_url": "https://agent705.ru/",
+    "start_url": "https://vmazikov.github.io/agent",
     "background_color": "#0b56fa",
     "theme_color": "#0b56fa",
     "orientation": "any",
