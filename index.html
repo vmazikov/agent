@@ -61,24 +61,222 @@
       <nav class="menu">
         <a class="menu__item" href="./ras.html">Расклейка на карте</a>
       </nav>
-      <!-- <div class="oborudovanie-grid">
-        <h2 class="form__title"> Оборудование: </h2>
-        <div class="oborudovanie-grid">
-          <label><input class="input input__checkbox" type="checkbox" name="dopoborudovanie" value=""> Аренда б/у оборудования за 10 руб (только одна единица приставка или роутер)</label>
-          <label><input class="input input__checkbox" type="checkbox" name="dopoborudovanie" value=""> Wi-Fi TP-LINK EC225-G5/AC1300 Рассрочка 60 мес 60 рублей в месяц (не сочетается с арендой)</label>
-          <label><input class="input input__checkbox" type="checkbox" name="dopoborudovanie" value=""> Wi-Fi TP-LINK EC225-G5/AC1300 3500 рублей </label>
-          <label><input class="input input__checkbox" type="checkbox" name="dopoborudovanie" value=""> Eltex NV-721WB Рассрочка 60 мес 90 рублей в месяц (не сочетается с арендой)</label>
-          <label><input class="input input__checkbox" type="checkbox" name="dopoborudovanie" value=""> Приставка IPTV Eltex 721  Покупка 5399 рублей </label>
-          <label><input class="input input__checkbox" type="checkbox" name="dopoborudovanie" value=""> Приставка IPTV Eltex 721 рассрочка на 12мес 505р мес</label>
-          <label><input class="input input__checkbox" type="checkbox" name="dopoborudovanie" value=""> Белый IP адрес Подключение бесплатно 50 рублей в месяц </label>
-        </div>
-      </div> -->
-      <!-- <div class="tarifs city_kemerovo">
-        <h2 class="form__title">Тарифы: </h2>
-        <h3>ШПД:</h3>
-        <p>ТП: Только интернет 100/200 мбит(ETTH/GPON) 280р</p>
-        <p>ТП: Технологии развлечения 100/200 мбит(ETTH/GPON) 400р</p>
-        <p>ТП: Игровой 100/500 мбит(ETTH/GPON) 890р</p> -->
+      <div class="tarifs city_kemerovo">
+        <h2 class="form__title">Тарифы РТК: </h2>
+        <h3 class="tarif_title">ШПД:</h3>
+        <!-- <p class="tarif_name">ТП: Только интернет 100/200 мбит(ETTH/GPON) Цена: 280р</p>
+        <p class="tarif_name">ТП: Технологии доступа. 30 дней в подарок 100/200 мбит(ETTH/GPON) Цена: 400р</p>
+        <p class="tarif_name">ТП: Игровой 100/500 мбит(ETTH/GPON) Цена: 890р</p>
+        <h3 class="tarif_title">ШПД+ТВ:</h3>
+        <p class="tarif_name">ТП: Технологии развлечения. Базовый. 30 дней в подарок 100/400 мбит(ETTH/GPON) ТВ: Базовый Цена: 550р</p>
+        <p class="tarif_name">ТП: Технологии развлечения. 30 дней в подарок 100/400 мбит(ETTH/GPON) ТВ: Стартовый Цена: 600р</p>
+        <p class="tarif_name">ТП: Технологии развлечения. Киноман 5в1 100/200 мбит(ETTH/GPON) ТВ: Стартовый Цена: 600/800р(промо-период 1 год)</p>
+        <p class="tarif_name">ТП: Игровой 100/500 мбит(ETTH/GPON) ТВ: Стартовый 1080р</p>
+        <h3 class="tarif_title">ШПД+MVNO:</h3>
+        <p class="tarif_name">ТП: Технологии общения 100 мбит(ETTH/GPON) MVNO: 1sim/1200мин/500смс/50гб Цена: 600р</p>
+        <p class="tarif_name">ТП: Технологии общения + 100 мбит(ETTH/GPON) MVNO: 5sim/1200мин/500смс/50гб Цена: 800р</p>
+        <p class="tarif_name">ТП: Комбо игровой 2в1 100/500 мбит(ETTH/GPON) MVNO: 1sim/1200мин/500смс/50гб Цена: 1140р</p>
+        <p class="tarif_name">ТП: Комбо игровой 2в1+ 100/500 мбит(ETTH/GPON) MVNO: 5sim/1200мин/500смс/50гб Цена: 1440р</p>
+        <h3 class="tarif_title">ШПД+ТВ+MVNO:</h3>
+        <p class="tarif_name">ТП: Технологии выгоды. Лучший старт 100/200 мбит(ETTH/GPON) ТВ: Стартовый MVNO: 1sim/1200мин/500смс/50гб Цена: 555/800р(промо-период 3 мес)</p>
+        <p class="tarif_name">ТП: Технологии выгоды 100 мбит(ETTH/GPON) ТВ: Стартовый MVNO: 1sim/1200мин/500смс/50гб Цена: 800р</p>
+        <p class="tarif_name">ТП: Технологии выгоды. Киноман 5в1 100/200 мбит(ETTH/GPON) ТВ: Стартовый MVNO: 1sim/1200мин/500смс/50гб Цена: 800р(промо-период 1 год)</p>
+        <p class="tarif_name">ТП: Технологии выгоды + 100 мбит(ETTH/GPON) ТВ: Стартовый MVNO: 5sim/1200мин/500смс/50гб Цена: 950р</p>
+        <p class="tarif_name">ТП: Технологии выгоды+. Киноман 5в1 100/200 мбит(ETTH/GPON) ТВ: Стартовый MVNO: 5sim/1200мин/500смс/50гб Цена: 950/1100р(промо-период 1 год)</p>
+        <p class="tarif_name">ТП: Комбо игровой 4в1 100/500 мбит(ETTH/GPON) ТВ: Стартовый MVNO: 1sim/1200мин/500смс/50гб Цена: 1350р</p>
+        <p class="tarif_name">ТП: Комбо игровой 4в1+ 100/500 мбит(ETTH/GPON) ТВ: Стартовый MVNO: 5sim/1200мин/500смс/50гб Цена: 1650р</p> -->
+        <!-- <table>
+          <tr>
+            <td>Услуги</td>
+            <td>Наименование</td>
+            <td>Технология</td>
+            <td>Скорость</td>
+            <td>Пакет ТВ</td>
+            <td>Условия по симкартам</td>
+            <td>Цена</td>
+            <td>Доп.Инфо</td>
+          </tr>
+          <tr>
+            <td>ШПД</td>
+            <td>Только интернет</td>
+            <td>ETTH/GPON</td>
+            <td>100/200</td>
+            <td>-</td>
+            <td>-</td>
+            <td>280р</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>ШПД</td>
+            <td>Технологии доступа. 30 дней в подарок</td>
+            <td>ETTH/GPON</td>
+            <td>100/200</td>
+            <td>-</td>
+            <td>-</td>
+            <td>400</td>
+            <td>Первый месяц бесплатно</td>
+          </tr>
+          <tr>
+            <td>ШПД</td>
+            <td>Игровой</td>
+            <td>ETTH/GPON</td>
+            <td>100/500</td>
+            <td>-</td>
+            <td>-</td>
+            <td>890р</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>ШПД+ТВ</td>
+            <td>Технологии развлечения. Базовый. 30 дней в подарок</td>
+            <td>ETTH/GPON</td>
+            <td>100/400</td>
+            <td>Базовый</td>
+            <td>-</td>
+            <td>550р</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>ШПД+ТВ</td>
+            <td>Технологии развлечения. 30 дней в подарок</td>
+            <td>ETTH/GPON</td>
+            <td>100/400</td>
+            <td>Стартовый</td>
+            <td>-</td>
+            <td>600</td>
+            <td>Первый месяц бесплатно</td>
+          </tr>
+          <tr>
+            <td>ШПД+ТВ</td>
+            <td>Технологии развлечения. Киноман 5в1</td>
+            <td>ETTH/GPON</td>
+            <td>100/200</td>
+            <td>Стартовый</td>
+            <td>-</td>
+            <td>600/800р(промо-период 1год)</td>
+            <td>???</td>
+          </tr>
+          <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+        </table> -->
         <!-- <label class="label"><input type="radio" name="tarif" value="">ШПД 330 100 Мбит/Сек социальный доступен только пенсионерам и льготным категориям </label>
         <label class="label"><input type="radio" name="tarif" value="">ШПД 360\450 100 Мбит/Сек  </label>
         <label class="label"><input type="radio" name="tarif" value="">ШПД 450р 100 Мбит/Сек  </label>
